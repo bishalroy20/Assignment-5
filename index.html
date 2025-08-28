@@ -22,27 +22,295 @@
 </head>
 <body>
     
-    <!-- Website name & logo on the left as Figma
-Heart icon, coin count (default-100), and Copy Count on the right as Figma -->
+    
 
 
     <!-- header nav section -->
-    <div class=" bg-white">
-        <div class="border-2 border-green-500 flex gap-2 ">
-            <img src="./assets/logo-dark.png" alt="" class="w-[50px] h-[50px]">
-            <h1 class="text-[#006747] font-semibold">Emergency<br/> Service </h1>
+    <div class=" bg-white flex flex-col md:flex-row justify-between items-center p-2">
+        <div class=" flex gap-2 p-2">
+            <img src="./assets/logo.png" alt="" class="w-[50px] h-[50px]">
+            <h1 class=" text-[#006747] font-extrabold md:m-0 mr-[15px]">Emergency<br/> Service </h1>
         </div>
-        <div>
+
+        <div class="flex gap-5 items-center">
             
+            <div class="bg-[#41ff6b1a]  rounded-2xl flex gap-3 justify-center items-center p-2 w-[123px] h-[52px]">
+                <h1 class="font-extrabold">0</h1>
+                <img src="./assets/heart.png" alt="" class="w-[30px] h-[30px]">
+            </div>
+
+            <div class="bg-[#41ff6b1a]  flex justify-center items-center rounded-2xl gap-3  w-[123px] h-[52px]">
+                <h1 class="font-extrabold">100</h1>
+                <img src="./assets/coin.png" alt="" class="w-[30px] h-[30px]">
+            </div>
+
+            <div class="bg-[#00a63e] rounded-3xl p-2 w-[127px] h-[52px] flex justify-center items-center">
+                <button class="text-white">2 Copy</button>
+            </div>
+            </div>
+    </div>
+
+   
+    <!-- baner section -->
+
+    <div class="bg-gradient-to-r from-[#013223] to-[#006747] text-center w-full max-w-[1520px] max-h-[250px] py-3 px-4">
+        <img src="./assets/logo-dark.png" alt="" class="w-[64px] h-[64px] md:w-[92px] md:h-[92px] mx-auto">
+        <h1 class="text-white text-2xl py-3 md:py-5">Emergency Service Directory</h1>
+        <p class="text-white">Government Emergency Services at Your Fingertip - A Project by Government of the People's Republic of Bangladesh</p>
+    </div>
+
+
+    <!-- card and history section -->
+    
+    <div class="bg-[#f5fff6] ">
+
+        
+        <div class="grid md:grid-cols-1 md:mx-[80px] mx-auto lg:grid-cols-3">
+            <!-- service card -->
+            <div class="bg-[#ffffff] shadow-2xl rounded-xl mt-[15px] md:w-[436.67px] md:h-[360px] p-[32px]">
+                <div class="flex justify-between ">
+                    <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                    <h2 class="w-[24px] h-[24px]"><i class="fa-regular fa-heart"></i></h2>
+                </div>
+                <div>
+                    <div class="mb-[32px] mt-[16px]">
+                        <h1 class="text-3xl font-extrabold">N</h1>
+                        <p >N</p>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-extrabold">9</h1>
+                        <p class="bg-[#f2f2f2] py-2 text-center rounded-3xl w-[53px] h-[37px]">A</p>
+                    </div>
+                </div>
+                <div class="flex  gap-3 mt-[32px]">
+                    <button class="btn btn-soft w-1/2 rounded-2xl"><i class="fa-regular fa-copy"></i> copy</button>
+                    <!-- <button class="bg-[#00a63e] w-1/2"><i class="fa-thin fa-phone"></i> call</button> -->
+                
+                    <button class="text-white bg-[#00a63e] rounded-2xl w-1/2 "><i class="fa-solid fa-phone"></i> call</button>
+                </div>
+
+            </div>
+
+
+
+            <div class="bg-[#ffffff] shadow-2xl rounded-xl mt-[15px] md:w-[436.67px] md:h-[360px] p-[32px]">
+                <div class="flex justify-between ">
+                    <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                    <h2 class="w-[24px] h-[24px]"><i class="fa-regular fa-heart"></i></h2>
+                </div>
+                <div>
+                    <div class="mb-[32px] mt-[16px]">
+                        <h1 class="text-3xl font-extrabold">N</h1>
+                        <p >N</p>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-extrabold">9</h1>
+                        <p class="bg-[#f2f2f2] py-2 text-center rounded-3xl w-[53px] h-[37px]">A</p>
+                    </div>
+                </div>
+                <div class="flex  gap-3 mt-[32px]">
+                    <button class="btn btn-soft w-1/2 rounded-2xl"><i class="fa-regular fa-copy"></i> copy</button>
+                    <!-- <button class="bg-[#00a63e] w-1/2"><i class="fa-thin fa-phone"></i> call</button> -->
+                
+                    <button class="text-white bg-[#00a63e] rounded-2xl w-1/2 "><i class="fa-solid fa-phone"></i> call</button>
+                </div>
+
+            </div>
+
+            <div class="bg-[#ffffff] shadow-2xl rounded-xl mt-[15px] md:w-[436.67px] md:h-[360px] p-[32px]">
+                <div class="flex justify-between ">
+                    <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                    <h2 class="w-[24px] h-[24px]"><i class="fa-regular fa-heart"></i></h2>
+                </div>
+                <div>
+                    <div class="mb-[32px] mt-[16px]">
+                        <h1 class="text-3xl font-extrabold">N</h1>
+                        <p >N</p>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-extrabold">9</h1>
+                        <p class="bg-[#f2f2f2] py-2 text-center rounded-3xl w-[53px] h-[37px]">A</p>
+                    </div>
+                </div>
+                <div class="flex  gap-3 mt-[32px]">
+                    <button class="btn btn-soft w-1/2 rounded-2xl"><i class="fa-regular fa-copy"></i> copy</button>
+                    <!-- <button class="bg-[#00a63e] w-1/2"><i class="fa-thin fa-phone"></i> call</button> -->
+                
+                    <button class="text-white bg-[#00a63e] rounded-2xl w-1/2 "><i class="fa-solid fa-phone"></i> call</button>
+                </div>
+
+            </div>
+
+            <div class="bg-[#ffffff] shadow-2xl rounded-xl mt-[15px] md:w-[436.67px] md:h-[360px] p-[32px]">
+                <div class="flex justify-between ">
+                    <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                    <h2 class="w-[24px] h-[24px]"><i class="fa-regular fa-heart"></i></h2>
+                </div>
+                <div>
+                    <div class="mb-[32px] mt-[16px]">
+                        <h1 class="text-3xl font-extrabold">N</h1>
+                        <p >N</p>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-extrabold">9</h1>
+                        <p class="bg-[#f2f2f2] py-2 text-center rounded-3xl w-[53px] h-[37px]">A</p>
+                    </div>
+                </div>
+                <div class="flex  gap-3 mt-[32px]">
+                    <button class="btn btn-soft w-1/2 rounded-2xl"><i class="fa-regular fa-copy"></i> copy</button>
+                    <!-- <button class="bg-[#00a63e] w-1/2"><i class="fa-thin fa-phone"></i> call</button> -->
+                
+                    <button class="text-white bg-[#00a63e] rounded-2xl w-1/2 "><i class="fa-solid fa-phone"></i> call</button>
+                </div>
+
+            </div>
+
+            <div class="bg-[#ffffff] shadow-2xl rounded-xl mt-[15px] md:w-[436.67px] md:h-[360px] p-[32px]">
+                <div class="flex justify-between ">
+                    <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                    <h2 class="w-[24px] h-[24px]"><i class="fa-regular fa-heart"></i></h2>
+                </div>
+                <div>
+                    <div class="mb-[32px] mt-[16px]">
+                        <h1 class="text-3xl font-extrabold">N</h1>
+                        <p >N</p>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-extrabold">9</h1>
+                        <p class="bg-[#f2f2f2] py-2 text-center rounded-3xl w-[53px] h-[37px]">A</p>
+                    </div>
+                </div>
+                <div class="flex  gap-3 mt-[32px]">
+                    <button class="btn btn-soft w-1/2 rounded-2xl"><i class="fa-regular fa-copy"></i> copy</button>
+                    <!-- <button class="bg-[#00a63e] w-1/2"><i class="fa-thin fa-phone"></i> call</button> -->
+                
+                    <button class="text-white bg-[#00a63e] rounded-2xl w-1/2 "><i class="fa-solid fa-phone"></i> call</button>
+                </div>
+
+            </div>
+
+            <div class="bg-[#ffffff] shadow-2xl rounded-xl mt-[15px] md:w-[436.67px] md:h-[360px] p-[32px]">
+                <div class="flex justify-between ">
+                    <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                    <h2 class="w-[24px] h-[24px]"><i class="fa-regular fa-heart"></i></h2>
+                </div>
+                <div>
+                    <div class="mb-[32px] mt-[16px]">
+                        <h1 class="text-3xl font-extrabold">N</h1>
+                        <p >N</p>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-extrabold">9</h1>
+                        <p class="bg-[#f2f2f2] py-2 text-center rounded-3xl w-[53px] h-[37px]">A</p>
+                    </div>
+                </div>
+                <div class="flex  gap-3 mt-[32px]">
+                    <button class="btn btn-soft w-1/2 rounded-2xl"><i class="fa-regular fa-copy"></i> copy</button>
+                    <!-- <button class="bg-[#00a63e] w-1/2"><i class="fa-thin fa-phone"></i> call</button> -->
+                
+                    <button class="text-white bg-[#00a63e] rounded-2xl w-1/2 "><i class="fa-solid fa-phone"></i> call</button>
+                </div>
+
+            </div>
+
+
+            <div class="bg-[#ffffff] shadow-2xl rounded-xl mt-[15px] md:w-[436.67px] md:h-[360px] p-[32px]">
+                <div class="flex justify-between ">
+                    <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                    <h2 class="w-[24px] h-[24px]"><i class="fa-regular fa-heart"></i></h2>
+                </div>
+                <div>
+                    <div class="mb-[32px] mt-[16px]">
+                        <h1 class="text-3xl font-extrabold">N</h1>
+                        <p >N</p>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-extrabold">9</h1>
+                        <p class="bg-[#f2f2f2] py-2 text-center rounded-3xl w-[53px] h-[37px]">A</p>
+                    </div>
+                </div>
+                <div class="flex  gap-3 mt-[32px]">
+                    <button class="btn btn-soft w-1/2 rounded-2xl"><i class="fa-regular fa-copy"></i> copy</button>
+                    <!-- <button class="bg-[#00a63e] w-1/2"><i class="fa-thin fa-phone"></i> call</button> -->
+                
+                    <button class="text-white bg-[#00a63e] rounded-2xl w-1/2 "><i class="fa-solid fa-phone"></i> call</button>
+                </div>
+
+            </div>
+
+
+            <div class="bg-[#ffffff] shadow-2xl rounded-xl mt-[15px] md:w-[436.67px] md:h-[360px] p-[32px]">
+                <div class="flex justify-between ">
+                    <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                    <h2 class="w-[24px] h-[24px]"><i class="fa-regular fa-heart"></i></h2>
+                </div>
+                <div>
+                    <div class="mb-[32px] mt-[16px]">
+                        <h1 class="text-3xl font-extrabold">N</h1>
+                        <p >N</p>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-extrabold">9</h1>
+                        <p class="bg-[#f2f2f2] py-2 text-center rounded-3xl w-[53px] h-[37px]">A</p>
+                    </div>
+                </div>
+                <div class="flex  gap-3 mt-[32px]">
+                    <button class="btn btn-soft w-1/2 rounded-2xl"><i class="fa-regular fa-copy"></i> copy</button>
+                    <!-- <button class="bg-[#00a63e] w-1/2"><i class="fa-thin fa-phone"></i> call</button> -->
+                
+                    <button class="text-white bg-[#00a63e] rounded-2xl w-1/2 "><i class="fa-solid fa-phone"></i> call</button>
+                </div>
+
+            </div>
+
+
+
+            <div class="bg-[#ffffff] shadow-2xl rounded-xl mt-[15px] md:w-[436.67px] md:h-[360px] p-[32px]">
+                <div class="flex justify-between ">
+                    <img src="./assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+                    <h2 class="w-[24px] h-[24px]"><i class="fa-regular fa-heart"></i></h2>
+                </div>
+                <div>
+                    <div class="mb-[32px] mt-[16px]">
+                        <h1 class="text-3xl font-extrabold">N</h1>
+                        <p >N</p>
+                    </div>
+                    <div>
+                        <h1 class="text-3xl font-extrabold">9</h1>
+                        <p class="bg-[#f2f2f2] py-2 text-center rounded-3xl w-[53px] h-[37px]">A</p>
+                    </div>
+                </div>
+                <div class="flex  gap-3 mt-[32px]">
+                    <button class="btn btn-soft w-1/2 rounded-2xl"><i class="fa-regular fa-copy"></i> copy</button>
+                    <!-- <button class="bg-[#00a63e] w-1/2"><i class="fa-thin fa-phone"></i> call</button> -->
+                
+                    <button class="text-white bg-[#00a63e] rounded-2xl w-1/2 "><i class="fa-solid fa-phone"></i> call</button>
+                </div>
+
+            </div>
+
+
+
 
         </div>
-        <div>
 
-        </div>
-        <div>
+
+        <!-- history -->
+
+        <div class="">
+            <!-- <h1 class="text-2xl font-extrabold text-center py-5">History</h1>
+            <div class="bg-white shadow-2xl rounded-xl md:w-[1300px] md:h-[200px] ">
+                
+                <h1><i class="fa-solid fa-clock-rotate-left"></i> Call History</h1>
+                <div class="bg-[#00a63e] rounded-3xl p-2 w-[127px] h-[52px] flex justify-center items-center">
+                    <button class="text-white">2 Copy</button>
+                </div>
+            </div> -->
 
         </div>
     </div>
+
+
 
 
 </body>
