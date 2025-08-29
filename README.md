@@ -24,11 +24,15 @@ inserting new element ,
     	parentElement.appendChild(child);
 
 3. What is Event Bubbling and how does it work?
+
+
 Ans : Event bubbling means when you click an element , the event first triggers on the element then it move to parent element .For example, clicking a button inside a <div> will also trigger the click event on the <div>, then on parent and so on. You can stop this upward flow using event.stopPropagation().
 
 
 
 4. What is Event Delegation in JavaScript? Why is it useful?
+
+
 Ans : Event Delegation is a technique where we can add a event listener to a parent element to handle its child elements . It is useful for improve performance and make it easier to manage dynamic elements .
 
 
