@@ -1,5 +1,6 @@
 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
+
 Ans : The methods getElementById , getElementByClassName , querySelector and querySelectorAll in javascript are used to select elements from Dom.There are some difference between them , 
 
 getElementById : Selects a single element based on its unique id attribute. Returns null if no element with the specified ID is found.
@@ -14,15 +15,17 @@ querySelectorAll: Selects all elements that match a given CSS selector. Returns 
 2. How do you create and insert a new element into the DOM?
 
 Ans : creating a div in DOM ,
+
 	const child = document.createElement('div');
 
 inserting new element ,
+
     	const parentElement = document.getElementById('parent_id'); 
     	parentElement.appendChild(child);
 
-
 3. What is Event Bubbling and how does it work?
 Ans : Event bubbling means when you click an element , the event first triggers on the element then it move to parent element .For example, clicking a button inside a <div> will also trigger the click event on the <div>, then on parent and so on. You can stop this upward flow using event.stopPropagation().
+
 
 
 4. What is Event Delegation in JavaScript? Why is it useful?
