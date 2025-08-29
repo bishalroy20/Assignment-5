@@ -383,3 +383,153 @@ document.getElementById("clear-btn").addEventListener('click', function () {
 });
 
 
+// copy button
+
+document.getElementById('copy1').addEventListener('click' , function(){
+    const text = document.getElementById("phone-number1").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copy-count');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+document.getElementById('copy2').addEventListener('click' , function(){
+    const text = document.getElementById("phone-number2").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copy-count');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+document.getElementById('copy3').addEventListener('click' , function(){
+    const text = document.getElementById("phone-number3").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copy-count');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+document.getElementById('copy4').addEventListener('click' , function(){
+    const text = document.getElementById("phone-number4").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copy-count');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+document.getElementById('copy5').addEventListener('click' , function(){
+    const text = document.getElementById("phone-number5").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copy-count');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+document.getElementById('copy6').addEventListener('click' , function(){
+    const text = document.getElementById("phone-number6").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copy-count');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+document.getElementById('copy7').addEventListener('click' , function(){
+    const text = document.getElementById("phone-number7").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copy-count');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+document.getElementById('copy8').addEventListener('click' , function(){
+    const text = document.getElementById("phone-number8").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copy-count');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+document.getElementById('copy9').addEventListener('click' , function(){
+    const text = document.getElementById("phone-number9").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copy-count');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+
+
+
+
