@@ -37,6 +37,9 @@ Ans : Event Delegation is a technique where we can add a event listener to a par
 
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
+
+
+
 Ans : preventDefault() method prevent the default action of browsers taking on that event. For example, it prevents the browser from following a link. 
 syntax : event.preventDefault();
 
